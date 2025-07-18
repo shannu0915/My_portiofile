@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portiofile</title>
+    <link rel="stylesheet" href="portiofile.css"/>
+</head>
+<script>
+    // Trigger Animation on Page Load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.skill-progress').forEach(progress => {
+        const width = progress.style.width;
+        progress.style.width = '0';
+        setTimeout(() => {
+          progress.style.width = width;
+        }, 200);
+      });
+    });
+  </script>
+<body>
+    <!-- Header Section -->
+    <header>
+      <h1>Shanmuka Teja Gandavarapu</h1>
+      <p>Web Developer | Designer | Creator</p>
+    </header>
+  
+    <!-- About Section -->
+    <section id="about">
+      <img src="WhatsApp Image 2025-02-09 at 20.16.24_2383b81e.jpg" alt="Your Photo" />
+      <h2>About Me</h2>
+      <p>A dedicated student currently pursuing the BTech course at Visvodaya Engineering College.
+          Seeks opportunities to learn more deeply by going beyond the basics of the course material. A committed student who is prepared to take on challenging projects, has a strong academic record and uses knowledge to look into difficult subjects and discover new things in-depth.</p>
+    </section>
+  
+    <!-- Skills Section with Animation -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+          <div class="skill-name">C Language - 90%</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%;"></div>
+          </div>
+        </div>
+      <div class="skill">
+        <div class="skill-name">HTML - 85%</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS - 70%</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 70%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript - 60%</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 60%;"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+  
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2><u>Projects</u></h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A registration form is a web-based form that allows users to create an account or sign up for a service by providing necessary information. It is commonly used on websites and applications for user onboarding.
+
+            <br><b>🔎 Purpose of a Registration Form:</b><br>
+            👉Collects essential user data like name, email, and password.<br>
+            
+            <br<>👉Creates user profiles for personalized experiences.
+            
+           <br> 👉Facilitates secure authentication and authorization.<br>
+            
+           👉Helps in user management and communication.</p>
+        <img src="registration.html.png" alt="Project 1" />
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>A universal currency converter is a software application or website that provides for the easy conversion of currency values based on present-day exchange rates.
+        <br><b>Features:</b><br>
+        💎User-friendly interface<br>
+
+        💎Real-time exchange rates<br>
+
+        💎Supports multiple currencies
+
+        <br>💎Reset and Exit functionality
+
+        <br>💎Responsive design
+
+        </p>
+        <img src="currency.png" alt="Project 2" />
+      </div>
+    </section>
+  
+    <!-- Resume Section -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <a href="Final CV.pdf" download>Download My Resume (PDF)</a>
+    </section>
+  
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: shanmukateja08@gmail.com </p>
+      <p>Phone: +91 8074437347</p>
+    </section>
+  
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 @shannu. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
